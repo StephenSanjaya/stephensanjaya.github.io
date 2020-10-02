@@ -1,0 +1,67 @@
+body {
+    margin-top: 50px;
+}
+
+.jumbotron img {
+    width: 25%;
+}
+
+section {
+    min-height: 320px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    padding: 3px 40px 3px 40px ;
+}
+
+button:hover{
+    background-color: rgb(46, 51, 53);
+    color: white;
+    transition: 0.2s;
+}
+
+.kemampuan{
+    width: 100%;
+}
+
+.kemampuan p{
+    width: 55%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.containerSkill {
+    width: 55%; 
+    background-color: #ddd;
+    margin: auto;
+}
+
+.skills {
+    text-align: right; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    color: white; 
+}
+
+.c {width: 90%; background-color: #4CAF50;}
+.java {width: 80%; background-color: #285174;} 
+.asp {width: 70%; background-color: #3688f4;} 
+.html {width: 60%; background-color: #b3d35c;}
+.laravel {width: 55%; background-color: #e70f0f;}
+
+.containerF{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+}
+
+footer {
+    min-height: 50px;
+    padding-top:12px;
+}
